@@ -8,5 +8,6 @@ description = "Compile-time environment variable inspection"
 repository = "https://github.com/m-kus/cairo-env-macro"
 homepage = "https://github.com/m-kus/cairo-env-macro"
 readme = "../../README.md"
+publish = true
 
 [cairo-plugin]

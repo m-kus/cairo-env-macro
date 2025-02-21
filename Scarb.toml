@@ -3,7 +3,7 @@ members = ["crates/env_macro", "crates/env_macro_test"]
 
 [workspace.package]
 description = "Compile-time environment variable inspection"
-cairo-version = "2.9.3"
+cairo-version = "2.10.1"
 version = "0.1.0"
 readme = "README.md"
 repository = "https://github.com/m-kus/cairo-env-macro"
