@@ -1,0 +1,12 @@
+[package]
+name = "env_macro"
+version = "0.1.0"
+edition = "2024_07"
+authors = ["Michael Zaikin <michael.zaikin@starkware.co>"]
+license = "MIT"
+description = "Compile-time environment variable inspection"
+repository = "https://github.com/m-kus/cairo-env-macro"
+homepage = "https://github.com/m-kus/cairo-env-macro"
+readme = "../../README.md"
+
+[cairo-plugin]

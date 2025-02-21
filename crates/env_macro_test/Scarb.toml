@@ -1,0 +1,16 @@
+[package]
+name = "env_macro_test"
+version = "0.1.0"
+edition = "2024_07"
+
+[executable]
+
+[dependencies]
+env_macro = { path = "../env_macro" }
+cairo_execute = "2.9.3"
+
+[dev-dependencies]
+cairo_test = "2.9.3"
+
+[scripts]
+test = "VERSION=2 scarb --profile exec execute --package env_macro_test"

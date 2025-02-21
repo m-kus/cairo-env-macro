@@ -1,0 +1,3 @@
+[workspace]
+members = ["crates/env_macro"]
+resolver = "2"
